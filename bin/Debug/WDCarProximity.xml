@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WDCarProximity
+</name>
+</assembly>
+<members>
+<member name="P:WDCarProximity.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WDCarProximity.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WDCarProximity.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_HistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_Current_StateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_HistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_Current_StateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_HistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet.Event_Current_StateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSetTableAdapters.Event_HistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSetTableAdapters.Event_Current_StateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WDCarProximity.WatchdogDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WDCarProximity.WatchdogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WDCarProximity.WatchdogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateAll(WDCarProximity.WatchdogDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WDCarProximity.WatchdogDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
